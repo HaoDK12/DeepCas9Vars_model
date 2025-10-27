@@ -23,11 +23,11 @@ python DeepCas9Vars-model.py --input_seq TTATCTTCGCTATCACCTCCGCCGGGGTCACCCATTAT 
 | Argument       | Type  | Required | Description                                                                                          |
 | -------------- | ----- | -------- | ---------------------------------------------------------------------------------------------------- |
 | `--input_seq`  | `str` | Yes    | Genomic DNA sequence (31–2000 bp) without spaces, line breaks, or numbers.                           |
-| `--cell_line`  | `str` | Yes    | Name of SpCas9 variant used for prediction. Supported: `HiFi-Cas9`, `HypaCas9`, `LZ3-Cas9`, `Sniper-Cas9`, `SpCas9`,`SpCas9-HF1`, `SpCas9-NG`, `SpCas9-NRCH`, `SpCas9-NRRH`, `SpCas9-NRTH`, `SpG`, `SpRY`, `SuperFi-Cas9`, `VRQR`, `eSpCas9`, `evoCas9`, `xCas9`. |
+| `--selected_cas9s`  | `str` | Yes    | Name of SpCas9 variant used for prediction. Supported: `HiFi-Cas9`, `HypaCas9`, `LZ3-Cas9`, `Sniper-Cas9`, `SpCas9`,`SpCas9-HF1`, `SpCas9-NG`, `SpCas9-NRCH`, `SpCas9-NRRH`, `SpCas9-NRTH`, `SpG`, `SpRY`, `SuperFi-Cas9`, `VRQR`, `eSpCas9`, `evoCas9`, `xCas9`. |
 | `--out_path`   | `str` | No    | Output file path for saving the prediction results (e.g., `results.tsv`).                            |
 | `--help`, `-h` | flag  | No     | Show help message and exit.                                                                          |
 
-Note: Supported variants are ``["HiFi-Cas9", "HypaCas9", "LZ3-Cas9", "Sniper-Cas9", "SpCas9","SpCas9-HF1", "SpCas9-NG", "SpCas9-NRCH", "SpCas9-NRRH", "SpCas9-NRTH","SpG", "SpRY", "SuperFi-Cas9", "VRQR", "eSpCas9", "evoCas9", "xCas9"]``. Input of variant label is multiple choice.
+Note: Supported variants are ``["HiFi-Cas9", "HypaCas9", "LZ3-Cas9", "Sniper-Cas9", "SpCas9","SpCas9-HF1", "SpCas9-NG", "SpCas9-NRCH", "SpCas9-NRRH", "SpCas9-NRTH","SpG", "SpRY", "SuperFi-Cas9", "VRQR", "eSpCas9", "evoCas9", "xCas9"]``, which can be multiple choice.
 
 ## Contact
 We greatly appreciate your feedback. If bug reports or suggestions, Please contact us (au735018@uni.au.dk).
