@@ -15,7 +15,7 @@ cd DeepCas9Vars_model
 ```
 Set environment as needed by ``requirements.txt``. You can import and use the model in scripts or run it via CLI.
 
-## Run DeepOne via command line tool
+## Run DeepCas9Vars via command line tool
 Run the DeepCas9Vars-model command line interface (CLI) with the command in the terminal:
 ```
 python DeepCas9Vars-model.py --input_seq TTATCTTCGCTATCACCTCCGCCGGGGTCACCCATTAT --selected_cas9s SpCas9 HiFi-Cas9 --out_path results.tsv
