@@ -33,8 +33,8 @@ Note: Supported variants are ``["HiFi-Cas9", "HypaCas9", "LZ3-Cas9", "Sniper-Cas
 We greatly appreciate your feedback. If bug reports or suggestions, Please contact us (au735018@uni.au.dk).
 
 ## Cite
-If you are using DeepCas9Vars in your publication, please cite:
-Hao Y, ..., Lin L, Yonglun L#, A unified multi-task deep learning model predicts sgRNA efficiency for 17 Cas9 variants simultaneously. 2025 (Manuscript under revision)
+If you are using DeepCas9Vars in your publication, please cite:  
+Hao Y, ..., Lin L, Yonglun L#, A unified multi-task deep learning model predicts sgRNA efficiency for 17 Cas9 variants simultaneously. 2025 (Manuscript under revision)  
 
-DeepCas9Vars is trained on data reported in the publication above and in papers from Kim et.al, please cite that as well.
+DeepCas9Vars is trained on data reported in the publication above and in papers from Kim et.al, please cite that as well.  
 Kim N, Choi S, Kim S, Song M, Seo JH, Min S, Park J, Cho SR, Kim HH. Deep learning models to predict the editing efficiencies and outcomes of diverse base editors. Nat Biotechnol. 2024 Mar;42(3):484-497.
